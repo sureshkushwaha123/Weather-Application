@@ -1,6 +1,6 @@
 #Weather Application
 
-This is a modern weather app built with React and Vite, with enhanced performance and responsiveness. It integrates with an external weather API (https://openweathermap.org) to fetch and display real-time weather data for any city.\
+This is a modern weather app built with React and Vite, with enhanced performance and responsiveness. It integrates with an external weather API (https://openweathermap.org) to fetch and display real-time weather data for any city.
 
 Tech Stack Used:\
 Frontend Framework: React 19\
@@ -14,7 +14,7 @@ In Dark mode:
 
 Setup Instructions:
 1.Clone the repository via:\
-git clone https://github.com/sureshkushwaha123/Weather-Application\
+git clone https://github.com/sureshkushwaha123/Weather-Application \
 cd weather-app
 
 2.Install dependencies:\
@@ -28,7 +28,7 @@ npm run dev
 
 API Integration Details:\
 
-API Used: OpenWeatherMap (https://openweathermap.org)\
+API Used: OpenWeatherMap https://openweathermap.org \
 Authentication: Requires API key via VITE_APP_ID\
 Rate Limits (Free tier):\
 60 calls per minute\
