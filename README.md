@@ -1,12 +1,42 @@
-# React + Vite
+#Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern weather app built with React and Vite, with enhanced performance and responsiveness. It integrates with an external weather API (https://openweathermap.org) to fetch and display real-time weather data for any city.\
 
-Currently, two official plugins are available:
+Tech Stack Used:\
+Frontend Framework: React 19\
+Build Tool: Vite\
+Styling & Animations: Framer Motion – for smooth animations\
+Linting: ESLint – for code quality\
+Deployment: Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In Dark mode:
+<img width="960" alt="{B6566D8A-15A4-43D1-8AA0-7C78A7841C0C}" src="https://github.com/user-attachments/assets/6ece312a-fb1e-46f5-b0c8-e8a0215a0c21" />
 
-## Expanding the ESLint configuration
+Setup Instructions:
+1.Clone the repository via:\
+git clone https://github.com/your-username/weather-app.git\
+cd weather-app\
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.Install dependencies:\
+npm install\
+
+3.Configure Environment Variables:\
+create a .env file in your root directory:\
+
+4.Run on local host:\
+npm run dev\
+
+API Integration Details:
+
+API Used: OpenWeatherMap (https://openweathermap.org)\
+Authentication: Requires API key via VITE_APP_ID\
+Rate Limits (Free tier):\
+60 calls per minute\
+1,000,000 calls/month\
+
+In ligh mode:
+<img width="960" alt="{8936F046-E2DB-4B36-A63E-5471A612B1E0}" src="https://github.com/user-attachments/assets/9fdbdd38-51f4-4e45-824e-3ceb42f9d788" />
+
+
+
+
