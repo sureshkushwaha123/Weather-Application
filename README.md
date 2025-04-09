@@ -15,24 +15,24 @@ In Dark mode:
 Setup Instructions:
 1.Clone the repository via:\
 git clone https://github.com/sureshkushwaha123/Weather-Application\
-cd weather-app\
+cd weather-app
 
 2.Install dependencies:\
-npm install\
+npm install
 
 3.Configure Environment Variables:\
-create a .env file in your root directory:\
+create a .env file in your root directory:
 
 4.Run on local host:\
-npm run dev\
+npm run dev
 
-API Integration Details:
+API Integration Details:\
 
 API Used: OpenWeatherMap (https://openweathermap.org)\
 Authentication: Requires API key via VITE_APP_ID\
 Rate Limits (Free tier):\
 60 calls per minute\
-1,000,000 calls/month\
+1,000,000 calls/month
 
 In ligh mode:
 <img width="960" alt="{8936F046-E2DB-4B36-A63E-5471A612B1E0}" src="https://github.com/user-attachments/assets/9fdbdd38-51f4-4e45-824e-3ceb42f9d788" />
