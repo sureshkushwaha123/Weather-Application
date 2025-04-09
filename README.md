@@ -14,7 +14,7 @@ In Dark mode:
 
 Setup Instructions:
 1.Clone the repository via:\
-git clone https://github.com/your-username/weather-app.git\
+git clone https://github.com/sureshkushwaha123/Weather-Application\
 cd weather-app\
 
 2.Install dependencies:\
